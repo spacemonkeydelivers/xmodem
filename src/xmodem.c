@@ -116,6 +116,7 @@ int Start(struct xmodem_receiver *rx)
 		{
 			cur_packet++;
 			//rx->writer();
+
 			cur_char = 0;
 			rx->put_char(ACK);
 		}
